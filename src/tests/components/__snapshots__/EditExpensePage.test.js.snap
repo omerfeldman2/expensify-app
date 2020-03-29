@@ -38,7 +38,8 @@ exports[`Should render EditExpensePage 1`] = `
     </button>
     <RemoveModal
       handleClearSelectedExpense={[Function]}
-      handleRemoveExpense={[Function]}
+      handleRemoveExpe={true}
+      nse={[Function]}
       selectedExpense={false}
     />
   </div>

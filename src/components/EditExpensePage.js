@@ -44,7 +44,7 @@ export class EditExpensePage extends React.Component {
                     <RemoveModal
                         selectedExpense={this.state.selectedExpense}
                         handleClearSelectedExpense={this.handleClearSelectedExpense}
-                        handleRemoveExpense={this.onRemove}
+                        handleRemoveExpe nse={this.onRemove}
                     />
                 </div>
 

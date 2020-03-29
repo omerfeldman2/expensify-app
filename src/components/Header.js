@@ -10,6 +10,7 @@ export const Header = ({startLogout}) => (
                 <Link to='/dashboard' className="header__title">
                     <h1>Expensify</h1>
                 </Link>
+                <h5 className='noa'>.אפליקציה זו מוקדשת לגברת נועה שיינוביץ הגיבורה שסוגרת שבת אחרי שבת למרות הקושי, אוהבים אותך נועה</h5>
                 <button onClick={startLogout} className="button button--link">Logout</button>
             </div>
         </div>
